@@ -1,22 +1,24 @@
 # Altom Arms & Ammo Website
 
-Static one-page website for Altom Arms & Ammo.
+Professional static website for Altom Arms & Ammo.
 
-## What to edit before launch
+## Upload to GitHub Pages
+
+1. Create a GitHub repository.
+2. Upload all files in this folder, not the folder itself.
+3. Go to Settings > Pages.
+4. Choose Deploy from a branch.
+5. Select `main` and `/root`, then Save.
+
+## Edit before launch
 
 Open `index.html` and replace:
 
-- `(864) 555-0123`
+- `(864) 555-1234`
 - `info@altomarms.com`
-- Formspree form action: `https://formspree.io/f/your-form-id`
-- Any transfer fees, hours, address, or policies you want listed
+- `facebook.com/altomarms`
+- Any wording, services, or appointment details you want changed
 
-## Free hosting options
+## Custom domain
 
-- GitHub Pages
-- Cloudflare Pages
-- Netlify free tier
-
-## Domain
-
-Buy a domain such as `altomarms.com`, then point it to your free hosting provider.
+After you buy the domain, add it in GitHub under Settings > Pages > Custom domain.

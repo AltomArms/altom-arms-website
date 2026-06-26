@@ -3,159 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Altom Arms & Ammo | Firearm Transfers, Ammo & Accessories | Piedmont, SC</title>
-  <meta name="description" content="Altom Arms & Ammo is a local Piedmont, SC firearms business established in 2015, offering firearm transfers, ammo, accessories, and NFA transfer support." />
+  <title>Altom Arms & Ammo | Piedmont, SC Firearm Transfers & NFA Transfers</title>
+  <meta name="description" content="Altom Arms & Ammo is a locally owned Piedmont, SC firearms business serving responsible gun owners with firearm transfers, NFA transfer support, ammo, and accessories since 2015." />
+  <meta property="og:title" content="Altom Arms & Ammo" />
+  <meta property="og:description" content="Firearm transfers, NFA items, ammo, and accessories in Piedmont, SC." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container">
-      <a href="#home" class="brand" aria-label="Altom Arms & Ammo Home">
-        <span class="brand-mark">A</span>
-        <span class="brand-text">Altom Arms <strong>& Ammo</strong></span>
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Altom Arms & Ammo home">
+        <img src="assets/logo.png" alt="Altom Arms & Ammo logo" />
       </a>
-      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
       <div class="nav-links">
+        <a href="#home">Home</a>
         <a href="#services">Services</a>
-        <a href="#transfers">Transfers</a>
+        <a href="#nfa">NFA Transfers</a>
+        <a href="#ammo">Ammo & Accessories</a>
         <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Contact</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
 
   <main id="home">
     <section class="hero">
-      <div class="container hero-grid">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="shell hero-layout">
         <div class="hero-copy">
-          <p class="eyebrow">Piedmont, South Carolina • Established 2015</p>
-          <h1>Local firearms service built on trust, safety, and experience.</h1>
-          <p class="hero-subtitle">Altom Arms & Ammo provides firearm transfers, ammunition, accessories, and NFA transfer support for responsible gun owners across the Upstate.</p>
+          <img class="hero-logo" src="assets/logo.png" alt="Altom Arms & Ammo logo" />
+          <p class="eyebrow">Piedmont, South Carolina</p>
+          <h1>Your local firearms experts <span>since 2015</span></h1>
+          <div class="rule"></div>
+          <p class="lead">Firearm transfers, NFA transfer support, ammo, and accessories. Reliable service. Honest people. Every time.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#contact">Start a Transfer</a>
-            <a class="button secondary" href="#services">View Services</a>
-          </div>
-          <p class="small-note">All services are conducted in accordance with applicable federal, state, and local laws.</p>
-        </div>
-        <div class="hero-card" aria-label="Business highlights">
-          <div class="logo-lockup">
-            <div class="large-mark">A</div>
-            <h2>Altom Arms & Ammo</h2>
-            <p>Firearms • Ammo • Accessories • NFA Transfers</p>
-          </div>
-          <div class="stat-row">
-            <div><strong>2015</strong><span>In Business</span></div>
-            <div><strong>SC</strong><span>Local Owned</span></div>
-            <div><strong>FFL</strong><span>Transfers</span></div>
+            <a class="btn primary" href="#contact">Start a Transfer</a>
+            <a class="btn secondary" href="#services">View Services</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="trust-strip">
-      <div class="container trust-grid">
-        <span>Private Appointment Style Service</span>
-        <span>Clear Transfer Instructions</span>
-        <span>NFA Item Support</span>
-        <span>Local Upstate SC Business</span>
+    <section id="services" class="service-strip" aria-label="Services">
+      <div class="shell service-grid">
+        <article class="service-card">
+          <div class="service-icon">↔</div>
+          <h2>Firearm Transfers</h2>
+          <p>Fast, secure transfers with clear communication from start to finish.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">▰</div>
+          <h2>NFA Transfers</h2>
+          <p>Suppressors, SBRs, SBSs, and other NFA item transfer support.</p>
+        </article>
+        <article class="service-card" id="ammo">
+          <div class="service-icon">▮▮▮</div>
+          <h2>Ammo & Accessories</h2>
+          <p>Quality ammunition and accessories for responsible gun owners.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">★</div>
+          <h2>Reliable Service</h2>
+          <p>Local, trusted, and committed to serving the Piedmont community.</p>
+        </article>
       </div>
     </section>
 
-    <section id="services" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">What We Do</p>
-          <h2>Simple, dependable firearms services.</h2>
-          <p>Whether you need a transfer, help with NFA paperwork logistics, ammo, or accessories, we keep the process straightforward and professional.</p>
+    <section class="about-contact">
+      <div class="shell split-layout">
+        <div id="about" class="about-panel">
+          <p class="eyebrow">About Altom Arms & Ammo</p>
+          <h2>A local business you can trust</h2>
+          <div class="small-rule"></div>
+          <p>Altom Arms & Ammo has proudly served the Piedmont, SC area since 2015. We are locally owned and operated, offering firearm transfers, NFA transfer support, ammo, accessories, and more.</p>
+          <p>Owners Brandon Altom and Brian Altom are committed to professional service, fair communication, and a positive experience every time.</p>
+          <a class="btn outline-dark" href="#contact">Contact Us</a>
         </div>
-        <div class="cards three">
-          <article class="card">
-            <h3>Firearm Transfers</h3>
-            <p>Have a firearm shipped to us from an online retailer, auction, or another FFL and complete the transfer locally.</p>
-          </article>
-          <article class="card">
-            <h3>NFA Transfers</h3>
-            <p>Support for suppressors, SBRs, SBSs, and other eligible NFA items through the proper transfer process.</p>
-          </article>
-          <article class="card">
-            <h3>Ammo & Accessories</h3>
-            <p>Local options for ammunition and firearm accessories, with special-order availability depending on inventory and supplier access.</p>
-          </article>
+
+        <div class="photo-panel" aria-label="Altom Arms & Ammo service counter illustration">
+          <div class="counter-card">
+            <img src="assets/logo.png" alt="Altom Arms & Ammo logo" />
+          </div>
         </div>
+
+        <aside id="contact" class="contact-panel">
+          <p class="eyebrow">Contact Us</p>
+          <h2>Ready to get started?</h2>
+          <ul class="contact-list">
+            <li><span>☎</span><a href="tel:8645551234">(864) 555-1234</a></li>
+            <li><span>✉</span><a href="mailto:info@altomarms.com">info@altomarms.com</a></li>
+            <li><span>●</span><a href="https://facebook.com/altomarms" target="_blank" rel="noreferrer">facebook.com/altomarms</a></li>
+            <li><span>⌖</span>Piedmont, SC<br><small>By appointment</small></li>
+          </ul>
+          <a class="btn primary block" href="mailto:info@altomarms.com?subject=Firearm%20Transfer%20Request">Email Us</a>
+        </aside>
       </div>
     </section>
 
-    <section id="transfers" class="section alt">
-      <div class="container split">
+    <section id="nfa" class="nfa-section">
+      <div class="shell nfa-grid">
         <div>
-          <p class="eyebrow">Transfer Process</p>
-          <h2>How to send a firearm transfer.</h2>
-          <p>Before shipping a firearm, contact us first so we can confirm availability, provide FFL information, and make sure the transfer is handled correctly.</p>
-          <a class="button primary" href="#contact">Contact Us First</a>
+          <p class="eyebrow">Transfer Support</p>
+          <h2>Firearm & NFA transfers made simple</h2>
+          <p>Send us your transfer details and we will help coordinate the process. For NFA items, we can help with suppressors, SBRs, SBSs, and other eligible items in accordance with applicable law.</p>
         </div>
         <div class="steps">
-          <div class="step"><span>1</span><p>Contact Altom Arms & Ammo before placing or shipping an order.</p></div>
-          <div class="step"><span>2</span><p>Have the seller or shipping FFL send the required transfer information.</p></div>
-          <div class="step"><span>3</span><p>Wait for confirmation that your item has arrived and is ready.</p></div>
-          <div class="step"><span>4</span><p>Bring valid identification and complete the required background check paperwork.</p></div>
+          <div><strong>1</strong><span>Contact us before shipping</span></div>
+          <div><strong>2</strong><span>Send seller/dealer information</span></div>
+          <div><strong>3</strong><span>Complete paperwork and pickup by appointment</span></div>
         </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container split reverse">
-        <div class="about-card">
-          <h3>Owned by Brandon & Brian Altom</h3>
-          <p>Serving customers with honest communication, safe handling, and a local-business approach.</p>
-        </div>
-        <div>
-          <p class="eyebrow">About Us</p>
-          <h2>Local. Responsible. Experienced.</h2>
-          <p>Altom Arms & Ammo has been in business since 2015, serving the Piedmont and greater Upstate South Carolina area with firearm sales support, transfers, ammunition, accessories, and NFA item assistance.</p>
-          <p>We believe customers deserve clear instructions, fair communication, and a safe, professional experience every step of the way.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section compliance">
-      <div class="container">
-        <h2>Responsible Service Notice</h2>
-        <p>Altom Arms & Ammo does not provide legal advice. All firearm and NFA transactions are subject to eligibility, required documentation, background checks, and applicable federal, state, and local laws. Please contact us before shipping any firearm or regulated item.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Get Started</p>
-          <h2>Contact Altom Arms & Ammo</h2>
-          <p>Reach out before starting a transfer or to ask about ammo, accessories, or NFA items.</p>
-          <div class="contact-list">
-            <p><strong>Phone:</strong> <a href="tel:+18645550123">(864) 414-4750</a></p>
-            <p><strong>Email:</strong> <a href="mailto:altomarmsandammo@gmail.com">altomarmsandammo@gmail.com</a></p>
-            <p><strong>Location:</strong> Piedmont, SC</p>
-            <p><strong>Hours:</strong> By appointment</p>
-          </div>
-        </div>
-        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Email<input type="email" name="email" required></label>
-          <label>Phone<input type="tel" name="phone"></label>
-          <label>How can we help?<textarea name="message" rows="5" required></textarea></label>
-          <button class="button primary" type="submit">Send Message</button>
-          <p class="form-note">Replace the Formspree link with your own free form endpoint, or use a simple mailto link instead.</p>
-        </form>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-grid">
+  <footer class="site-footer">
+    <div class="shell footer-inner">
       <p>© <span id="year"></span> Altom Arms & Ammo. All rights reserved.</p>
-      <p>Piedmont, South Carolina</p>
+      <p>Responsible ownership. Local service. Piedmont, SC.</p>
     </div>
   </footer>
 
